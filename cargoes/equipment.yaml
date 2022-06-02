@@ -8,7 +8,7 @@ longName: equipment
 name: Equipment
 penaltyLength: 192
 penaltyLowerBound: 63
-price: 12953
+price: 6374
 sprite:
   filename: cargoes/equipment.png
   left: 0
