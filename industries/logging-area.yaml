@@ -1,17 +1,76 @@
 available: false
 callbacks: ''
-cargoAcceptance: []
+cargoAcceptance:
+- EQPM
 cargoProduction:
 - WDDD
 colour: 1
 fundCostMultiplier: 175
 id: 0
 layout:
+- - - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 1
+    - 0
+    - 0
+  - - 0
+    - 0
+    - 0
+    - 0
+    - 0
 - - - -1
-name: 'New industry #0'
+name: Logging Area
 placement: anywhere
 probabilityInGame: 16
 probabilityMapGen: 20
 prospectChance: 80
-tiles: []
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 3924
+      left: -1
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 3924
+      left: 3
+      top: 3
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 3924
+      left: -31
+      top: 0
 type: primary
