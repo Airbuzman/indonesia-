@@ -179,8 +179,8 @@ layout:
 - - - -1
 name: Logging Area
 placement: anywhere
-probabilityInGame: 16
-probabilityMapGen: 20
+probabilityInGame: 4
+probabilityMapGen: 12
 prospectChance: 80
 tiles:
 - sprites:
