@@ -1,0 +1,51 @@
+available: false
+callbacks: ''
+cargoAcceptance: []
+cargoProduction: []
+colour: 1
+fundCostMultiplier: 100
+id: 1
+layout:
+- - - 0
+    - 0
+    - -1
+    - -1
+    - -1
+  - - -1
+    - -1
+    - -1
+    - -1
+    - -1
+  - - -1
+    - -1
+    - -1
+    - -1
+    - -1
+  - - -1
+    - -1
+    - -1
+    - -1
+    - -1
+  - - -1
+    - -1
+    - -1
+    - -1
+    - -1
+name: Wharf
+placement: on-water
+probabilityInGame: 10
+probabilityMapGen: 11
+prospectChance: 75
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/wharf/1.png
+      left: -31
+      top: 0
+type: primary
