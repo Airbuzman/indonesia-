@@ -42,8 +42,8 @@ callbacks: |-
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:EQ [] 1 =
-  prod_cargo_types ctt:FOOD [] 14 =
+  accept_cargo_types ctt:EQPM [] 1 =
+  prod_cargo_types ctt:WDDD [] 14 =
 
 
   /*
