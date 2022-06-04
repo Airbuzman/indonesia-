@@ -151,31 +151,31 @@ colour: 1
 fundCostMultiplier: 175
 id: 0
 layout:
-- - - 0
+- - - 2
+    - 4
+    - 4
+    - 4
+    - 0
+  - - 4
+    - 0
+    - 4
+    - 4
+    - 4
+  - - 3
+    - 3
+    - 3
+    - 1
+    - 1
+  - - 4
+    - 4
+    - 3
+    - 1
+    - 1
+  - - 4
+    - 4
     - 0
     - 1
-    - 0
-    - 0
-  - - 0
-    - 0
-    - 0
-    - 0
-    - 0
-  - - 0
-    - 0
-    - 0
-    - 0
-    - 0
-  - - 0
-    - 0
     - 1
-    - 0
-    - 0
-  - - 0
-    - 0
-    - 0
-    - 0
-    - 0
 - - - -1
 name: Logging Area
 placement: anywhere
@@ -195,7 +195,7 @@ tiles:
     sprite:
       filename: industries/logging-area/1.png
       left: -31
-      top: 0
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
@@ -206,7 +206,7 @@ tiles:
     sprite:
       filename: industries/logging-area/3.png
       left: -31
-      top: 0
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
@@ -217,5 +217,27 @@ tiles:
     sprite:
       filename: industries/logging-area/4.png
       left: -31
+      top: -90
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/logging-area/5.png
+      left: -31
       top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/logging-area/6.png
+      left: -31
+      top: -50
 type: primary
