@@ -42,8 +42,8 @@ callbacks: |-
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:EQPM [] 1 =
-  prod_cargo_types ctt:WDDD [] 14 =
+  accept_cargo_types ctt:EQPM [] 3 =
+  prod_cargo_types ctt:WDDD [] 16 =
 
 
   /*
@@ -51,7 +51,7 @@ callbacks: |-
    See: https://github.com/andythenorth/firs/blob/4.4.0/src/templates/produce_primary.pynml
   */
 
-  /* Get the total amount of supplies delivered in last 27 production cycles. */
+  /* Get the total amount of supplies delivered in last 40 production cycles. */
   func:produce_total_supplies_delivered def{
       i 0 26 [..] loop{
           total_delivered total_delivered num_supplies_delivered i [] + =
