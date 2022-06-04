@@ -1,30 +1,31 @@
-available: false
+available: true
 callbacks: ''
 cargoAcceptance: []
-cargoProduction: []
+cargoProduction:
+- EQPM
 colour: 1
-fundCostMultiplier: 100
+fundCostMultiplier: 123
 id: 1
 layout:
 - - - 0
     - 0
+    - 0
+    - 3
+    - 0
+  - - 1
+    - 0
     - -1
     - -1
     - -1
-  - - -1
+  - - 1
+    - 0
     - -1
     - -1
     - -1
-    - -1
-  - - -1
-    - -1
-    - -1
-    - -1
-    - -1
-  - - -1
-    - -1
-    - -1
-    - -1
+  - - 0
+    - 0
+    - 0
+    - 2
     - -1
   - - -1
     - -1
@@ -48,4 +49,37 @@ tiles:
       filename: industries/wharf/1.png
       left: -31
       top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/wharf/2.png
+      left: -31
+      top: -55
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/wharf/3.png
+      left: -31
+      top: -55
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/wharf/4.png
+      left: -31
+      top: -55
 type: primary
